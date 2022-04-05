@@ -13,7 +13,6 @@ public class ArmstrongNumber
             d=num1%10;
             sum=sum+(d*d*d);
             num1=num1/10;
-
         }
         if(num==sum)
             System.out.println("The given Number is Palindrome: "+num);

@@ -5,6 +5,7 @@ public class AbundantNumber
     {
         Scanner in=new Scanner(System.in);
         int num,i,sum=0;
+        
         System.out.println("Enter a Number:");
         num=in.nextInt();
         

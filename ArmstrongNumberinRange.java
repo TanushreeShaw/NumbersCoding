@@ -19,6 +19,7 @@ public class ArmstrongNumberinRange
                 sum=sum+(d*d*d);
                 num=num/10;
             }
+            
             if(sum==i)
             {
                 System.out.println(i);

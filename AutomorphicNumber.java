@@ -18,8 +18,8 @@ public class AutomorphicNumber
             }
         }
         return 1;
-        
     }
+
     public static void main(String args[]) 
     {
         Scanner in=new Scanner(System.in);
@@ -29,9 +29,9 @@ public class AutomorphicNumber
         num=in.nextInt();
         AutomorphicNumber ob=new AutomorphicNumber();
         auto=ob.Automorphic(num);
-        if(auto==1)
-            System.out.println(num+" is an Automorphic Number.");
-        else
-            System.out.println(num+" is not an Automorphic Number.");
+            if(auto==1)
+                System.out.println(num+" is an Automorphic Number.");
+            else
+                System.out.println(num+" is not an Automorphic Number.");
     }
 }

@@ -8,6 +8,7 @@ public class FactorNumber
         System.out.println("Enter a Number:");
         num=in.nextInt();
         System.out.println("The Factors of the Number are:");
+
         for(i=1;i<=num;i++)
         {
             if(num%i==0)

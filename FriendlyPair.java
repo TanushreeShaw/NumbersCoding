@@ -1,3 +1,4 @@
+//Checking for Friendly Pairs
 import java.util.*;
 public class FriendlyPair 
 {
@@ -21,7 +22,6 @@ public class FriendlyPair
             if(num2%j==0)
                 sum2=sum2+j;
         }
-
         if(((num1==0 && num2==0) || (num1==1 && num2==1) || ((num1==sum2) && (num2==sum1))))
             System.out.println(num1+" and "+num2+" are Friendly Pairs.");
         else

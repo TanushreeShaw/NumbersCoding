@@ -1,2 +1,2 @@
 # Some Advanced Programs on Numbers.
-## All programs done in Java.
+## All programs are done in Java.
